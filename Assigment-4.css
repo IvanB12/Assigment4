@@ -1,0 +1,27 @@
+        body {
+            align-items: center;
+            display: flex;
+        }
+        
+        #colors {
+            border: solid red;
+            border-width: 10px;
+            display: inline-block;
+            width: 150px;
+            position: relative;
+        }
+        
+        #colors button {
+            display: block;
+            margin: 15px;
+            padding: 15px;
+        }
+        
+        #canvas {
+            width: 500px;
+            height: 500px;
+            display: inline-block;
+            border: solid red;
+            border-width: 10px;
+            position: relative;
+        }
