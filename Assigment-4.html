@@ -13,16 +13,21 @@
 
     <body>
 
+        <div id="controlPanel">
+            <div id="colors">
+                <button id="black" style="background-color: black" onclick="PaintBrush(1);"> </button>
+                <button id="red" style="background-color: red" onclick="PaintBrush(2);"> </button>
+                <button id="green" style="background-color: green" onclick="PaintBrush(3);"> </button>
+                <button id="blue" style="background-color: blue" onclick="PaintBrush(4);"> </button>
+                <button id="white" style="background-color: white" onclick="PaintBrush(5);"> </button>
+            </div>
 
-        <div id="colors">
-            <button id="black" onclick="PaintBrush(1);">black</button>
-            <button id="red" onclick="PaintBrush(2);">red</button>
-            <button id="green" onclick="PaintBrush(3);">green</button>
-            <button id="blue" onclick="PaintBrush(4);">blue</button>
-            <button id="white" onclick="PaintBrush(5);">white</button>
+
         </div>
-        <div id="canvas">
-            <div></div>
+        <div id="canvasFrame">
+            <div id="canvas">
+                <div></div>
+            </div>
         </div>
         <p id="demo"></p>
         <script src="./Assigment-4.js"></script>

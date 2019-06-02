@@ -1,13 +1,29 @@
         body {
             align-items: center;
             display: flex;
+            background-image: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/qAgrZII/vintage-textured-paper-background-with-yellowed-aged-edges-and-a-mottled-rough-fibre-texture-with-blank-copyspace-for-your-text_vjescrevgx__F0000.png);
+            background-repeat: repeat;
+        }
+        
+        #icrease {
+            display: inline-block;
+        }
+        
+        #decrease {
+            display: inline-block;
+        }
+        
+        #controlPanel {
+            border: solid sienna;
+            border-width: 8px;
+            border-radius: 25%;
+            padding: 25px;
+            background-image: url(https://www.deckleedge.co.za/wp-content/uploads/2016/08/f9288e5dfc473491cd4fae98a637d431d59d0235-62.png)
         }
         
         #colors {
-            border: solid red;
-            border-width: 10px;
             display: inline-block;
-            width: 150px;
+            width: 100px;
             position: relative;
         }
         
@@ -15,13 +31,27 @@
             display: block;
             margin: 15px;
             padding: 15px;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            border: solid gray;
+            border-width: 5px;
+        }
+        
+        #canvasFrame {
+            border: solid sienna;
+            border-width: 15px;
+            padding: 30px;
+            background-image: url(https://i.ytimg.com/vi/fm7fIeAH6LY/maxresdefault.jpg)
         }
         
         #canvas {
             width: 500px;
             height: 500px;
             display: inline-block;
-            border: solid red;
-            border-width: 10px;
+            border: solid sienna;
+            border-width: 8px;
             position: relative;
+            background-color: white;
+            padding: 35px;
         }

@@ -1,17 +1,6 @@
 var canv = document.getElementById('canvas');
-
-var a = function(event) {
-    var x = event.clientX;
-    var y = event.clientY;
-    var coords = "X coords: " + x + ", Y coords: " + y;
-    document.getElementById("demo").innerHTML = coords;
-}
-
-canv.addEventListener("click", a);
-
-
-
 var valueColor = "black";
+
 
 function PaintBrush(value) {
     if (value === 1) {
@@ -26,6 +15,8 @@ function PaintBrush(value) {
         valueColor = "white";
     }
 }
+
+
 
 function GetClick(a) {
     var pix = document.createElement("div");
